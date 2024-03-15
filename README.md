@@ -6,7 +6,18 @@ This application is a user-friendly README generator built using PyQt6. It provi
 
 這個應用程式是一個使用PyQt6建立的使用者友好的README產生器,它提供了一個圖形用戶界面(GUI),允許用戶輸入項目詳細信息,例如項目名稱、描述、安裝說明、使用示例和作者信息。應用程式然後根據提供的信息生成格式良好的Markdown格式的README文件。
 
-<img src="readme_file/README_generator_GUI.png" alt="README generator GUI" width="300">
+<img src="readme_file/README_generator_GUI.png" alt="README generator GUI" width="500">
+
+#### install PyInstaller
+Open terminal
+```script
+pip install pyinstaller
+```
+
+Create an Executable using PyInstaller
+```script
+pyinstaller main.py -F -n='README_generator'
+```
 
 ## Usage Examples
 
