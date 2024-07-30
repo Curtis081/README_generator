@@ -8,17 +8,6 @@ This application is a user-friendly README generator built using PyQt6. It provi
 
 <img src="readme_file/README_generator_GUI.png" alt="README generator GUI" width="500">
 
-#### install PyInstaller
-Open terminal
-```script
-pip install pyinstaller
-```
-
-Create an Executable using PyInstaller
-```script
-pyinstaller main.py -F -n='README_generator'
-```
-
 ## Usage Examples
 
 1. Run the `main.py` file to start the application.
